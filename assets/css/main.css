@@ -1,0 +1,267 @@
+*{
+    box-sizing: border-box;
+    overflow: auto;
+    font-family: "Hanken Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+html,body,head{
+    margin: 0;
+    padding: 0;
+}
+
+.hanken-grotesk-uniquifier {
+    font-family: "Hanken Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+p{
+    color: hsl(241, 100%, 89%);
+    font-size: 18px;
+
+}
+
+h1{
+    color: white;
+}
+
+h2{
+    font-size: 300;
+    letter-spacing: 0.1px;
+}
+
+body{
+    background-color: hsl(0, 0%, 100%);
+    height: 100vh;
+    
+}
+
+main{
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row{
+    width: 50%;
+    box-shadow: 15px 15px 15px hsla(241, 72%, 46%, 0.05);
+    border-radius: 35px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.col-6{
+    flex: 0 0 auto;
+    width: 50%;
+    border-radius: 35px;
+}
+
+.bg-first{
+    background-image: linear-gradient(180deg, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    text-align: center;
+    padding: 30px 48px;
+}
+
+.color-h2-1{
+    color: hsl(241, 100%, 89%);
+}
+
+.circle{
+    background-image: linear-gradient(180deg, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    width: 70%;
+    margin: auto;
+    border-radius: 50%;
+    padding: 50px 0;
+}
+
+.sp-76 {
+    color: white;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 80px;
+}
+
+.bg-second{
+    padding: 30px 48px;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.space{
+    height: 20px;
+}
+
+td{
+    position: relative;
+}
+
+td img{
+    position: absolute;
+    left: 17px;
+    top: 18px;
+}
+
+.td-1{
+    background-color: hsl(0, 100%, 67%, 0.05);
+    color: hsl(0, 100%, 67%);
+}
+
+.td-2{
+    background-color: hsl(39, 100%, 56%, 0.05);
+    color: hsl(39, 100%, 56%);
+}
+
+.td-3{
+    background-color: hsl(166, 100%, 37%, 0.05);
+    color: hsl(166, 100%, 37%);
+}
+
+.td-4{
+    background-color: hsl(234, 85%, 45%, 0.05);
+    color: hsl(234, 85%, 45%);
+}
+
+td{
+    padding: 15px;
+    font-size: 18px;
+}
+
+.td-right{
+    text-align: right;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: hsl(224, 30%, 27%);
+    font-weight: 800;
+}
+
+.td-left{
+    padding-left: 50px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    
+}
+
+.of-100{
+    color: hsl(224, 30%, 27%,0.5);
+}
+
+
+.color-h2-2{
+    color: hsl(224, 30%, 27%);
+}
+
+div a{
+    background-color: hsl(224, 30%, 27%);
+    color: white;
+    width: 100%;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: 15px 0;
+    margin-top: 20px;
+    border-radius: 30px;
+}
+
+
+
+
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center; 
+}
+.attribution a { color: hsl(228, 45%, 44%); }
+
+
+
+@media (max-width:1350px){
+    .row{
+        width: 65%;
+        padding: 0;
+        border-radius: 0;
+    }
+}
+@media (max-width:1150px){
+    .row{
+        width: 70%;
+        padding: 0;
+        border-radius: 0;
+    }
+}
+@media (max-width:1000px){
+    .row{
+        width: 75%;
+        padding: 0;
+        border-radius: 0;
+    }
+}
+
+@media (max-width:992px){
+    .row{
+        width: 80%;
+        padding: 0;
+        border-radius: 0;
+    }
+}
+
+@media (max-width:875px){
+    .row{
+        width: 85%;
+        padding: 0;
+        border-radius: 0;
+    }
+}
+
+@media (max-width:800px){
+    .row{
+        width: 90%;
+        padding: 0;
+        border-radius: 0;
+    }
+}
+
+@media (max-width:775px){
+    body{
+        height: auto;
+        padding: 0;
+    }
+    .row{
+        width: 55%;
+        padding: 30px 0;
+        border-radius: 35px;
+    }
+    .col-6{
+        flex: 0 0 auto;
+        width: 100%;
+        
+        border-radius: 35px;
+    }
+}
+
+
+@media (max-width:568px){
+    body{
+        height: auto;
+        padding: 0;
+    }
+    .row{
+        width: 100%;
+        padding: 0;
+        border-radius: 0;
+    }
+    .col-6{
+        flex: 0 0 auto;
+        width: 100%;
+        border-radius: 0;
+        border-bottom-left-radius: 35px;
+        border-bottom-right-radius: 35px;
+    }
+}
